@@ -9,6 +9,7 @@
     background-attachment: fixed;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .banner img{
     width: 170px;
@@ -18,7 +19,6 @@
     animation-name: rollIn;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    
 }
   
   @keyframes rollIn {
@@ -27,8 +27,53 @@
     100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
  } 
  
+
+.commander{
+    margin-top: 5%;
+    width: 150px;
+}
+}
+section {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h1{
+    text-align: center;
+}
+.gallerie{
+    text-align: center;
+}
+.photos{
+    flex-direction: row;
+    
+}
 .photos img{
     height: 250px;
     width: 250px;
+    margin: 10px;
+    
+    
 
+}
+.restaurants{
+    display: flex;
+    flex-direction: column;
+    
+}
+.maps{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+
+}
+.map{
+    float: right;
+}
+.contactmap{
+    display: flex;
+    
 }
