@@ -48,6 +48,7 @@ h1{
 }
 .photos{
     flex-direction: row;
+    justify-content: center;
     
 }
 .photos img{
