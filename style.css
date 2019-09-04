@@ -11,9 +11,33 @@
     align-items: center;
     flex-direction: column;
 }
-.banner img{
+.carousel{
+    width:100%;
+}
+.carousel-item{
+ height:400px;
+ bottom: 100px;
+}
+
+header{
+    position: relative;
+}
+.lienbutton{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: calc(50% + 120px);
+    z-index: 2;
+
+}
+.logo {
     width: 170px;
     height: 170px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top:50%;
+    z-index: 2;
     border-radius: 50%;
     border: 5px solid #484848;
     animation-name: rollIn;
@@ -22,9 +46,9 @@
 }
   
   @keyframes rollIn {
-    0% { opacity: 0; transform: translateX(-300%) rotate(-120deg);}
-    75%{opacity: 0.5; transform: translateX(100%) rotate(50deg);}
-    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+    0% { opacity: 0; transform: translate(-300%, -50%) rotate(-120deg);}
+    75%{opacity: 0.5; transform: translate(100%, -50%) rotate(50deg);}
+    100% { opacity: 1; transform: translate(-50%, -50%) rotate(0deg); } 
  } 
  
 
@@ -32,9 +56,8 @@
     margin-top: 5%;
     width: 150px;
 }
-}
 section {
-    display:flex;
+    /*display:flex;*/
     align-items: center;
     flex-direction: column;
     
@@ -42,7 +65,17 @@ section {
 
 h1{
     text-align: center;
+    margin:3%;
 }
+.panel{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card{
+    width: 30%;
+}
+
 .gallerie{
     text-align: center;
 }
@@ -55,26 +88,27 @@ h1{
     height: 250px;
     width: 250px;
     margin: 10px;
-    
-    
-
 }
 .restaurants{
     display: flex;
     flex-direction: column;
+    text-align: center;
     
 }
 .maps{
     display: flex;
     justify-content: space-around;
 }
-.contact{
 
-}
 .map{
     float: right;
 }
 .contactmap{
     display: flex;
+    align-self: normal;
     
+}
+.resto{
+    display: flex;
+    align-self: normal;
 }
