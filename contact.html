@@ -14,7 +14,8 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"><img src="./images/Logonoframe.png" width="30" height="30"
+                alt="Logo thai chiang mai café"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,75 +43,68 @@
 
     <header class="container-fluid banner">
         <img src="./images/Logonoframe.png" alt="Logo" class="logo">
-        <a
-            href="https://deliveroo.be/fr/menu/brussels/saint-boniface/thai-chiangmai?utm_medium=affiliate&utm_source=google_maps_link"><button
-                type="button" class="btn btn-dark commander">Commander</button></a>
+
 
     </header>
 
     <section class="container contact" id="contact1">
         <h1>Contact</h1>
-        <div class="contactmap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <div class="well well-sm">
-                            <form class="form-horizontal" action="" method="post">
-                                <fieldset>
-                                    <legend class="text-center">Contact us</legend>
-
-                                    <!-- Name input-->
-                                    <div class="form-group">
-                                        <label class="col-md-3 control-label" for="name">Name</label>
-                                        <div class="col-md-9">
-                                            <input id="name" name="name" type="text" placeholder="Your name"
-                                                class="form-control">
-                                        </div>
-                                    </div>
-
-                                    <!-- Email input-->
-                                    <div class="form-group">
-                                        <label class="col-md-3 control-label" for="email">Your E-mail</label>
-                                        <div class="col-md-9">
-                                            <input id="email" name="email" type="text" placeholder="Your email"
-                                                class="form-control">
-                                        </div>
-                                    </div>
-
-                                    <!-- Message body -->
-                                    <div class="form-group">
-                                        <label class="col-md-3 control-label" for="message">Your message</label>
-                                        <div class="col-md-9">
-                                            <textarea class="form-control" id="message" name="message"
-                                                placeholder="Please enter your message here..." rows="5"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <!-- Form actions -->
-                                    <div class="form-group">
-                                        <div class="col-md-12 text-right">
-                                            <button type="submit" class="btn btn-dark btn-lg">Submit</button>
-                                        </div>
-                                    </div>
-                                </fieldset>
-                            </form>
-                        </div>
+        <form class="needs-validation" novalidate>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltip01">Prénom</label>
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Prénom" value="Marc"
+                        required>
+                    <div class="valid-tooltip">
+                        Looks good!
                     </div>
                 </div>
-            </div>
-
-
-            <div class="map">
-                <h1>Map</h1>
-                
-                <div class="sociallinks">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter-square"></i>
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltip02">Nom</label>
+                    <input type="text" class="form-control" id="validationTooltip02" placeholder="Nom" value="Dubois"
+                        required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="form-group col-md-4 mb-3">
+                    <label for="exampleFormControlInput1">Adresse Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nom@example.com">
                 </div>
             </div>
-        </div>
+            <div class="form-row">
+                <select class="form-control">
+                    <option>Choisissez une option</option>
+                    <option>Commander un plat</option>
+                    <option>Réserver une table</option>
+                    <option>Faire un commentaire</option>
+                    <option>Laisser un avis</option>
+                </select>
+                <div class="form-group col-md-12 mb-6">
+                    <label for="exampleFormControlTextarea1">Commentaires</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="container send">
+                <a href="www.gmail.com"><i class="fas fa-paper-plane fa-4x"></i></a>
+            </div>
+        </form>
     </section>
+    <footer class="container fluid">
+        <h3>Rejoignez nous sur les réseaux sociaux!</h3>
+        <div class="sociallink">
+            <a href="https://www.facebook.com/thaichiangmaibrussels/">
+                <i class="fab fa-facebook-square text-dark fa-3x "></i>
+            </a>
+            <i class="fab fa-instagram text-dark fa-3x "></i>
+            <i class="fab fa-twitter-square text-dark fa-3x "></i>
+            <a
+                href="https://fr.tripadvisor.be/Restaurant_Review-g188644-d13122624-Reviews-Thai_Chiangmai-Brussels.html">
+                <i class="fab fa-tripadvisor text-dark fa-3x"></i>
+            </a>
+        </div>
+    </footer>
 
 </body>
 

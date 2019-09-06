@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d59cc858db.js"></script>
     <title>Photos</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"><img src="./images/Logonoframe.png" width="30" height="30"
+                alt="Logo thai chiang mai café"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,18 +43,17 @@
 
     <header class="container-fluid banner">
         <img src="./images/Logonoframe.png" alt="Logo" class="logo">
-        <a
-            href="https://deliveroo.be/fr/menu/brussels/saint-boniface/thai-chiangmai?utm_medium=affiliate&utm_source=google_maps_link"><button
-                type="button" class="btn btn-dark commander">Commander</button></a>
+
 
     </header>
 
-    <section class="container gallerie" id="gallerie1">
+    <!--<section class="container gallerie" id="gallerie1">
         <h1>Gallerie</h1>
         <div class="row photos">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <a href="./images/buddha.jpg" class="thumbnail">
                     <img src="./images/buddha.jpg" alt="">
+
                 </a>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
@@ -110,12 +111,164 @@
                     <img src="./images/springrolls.jpg" alt="">
                 </a>
             </div>
-
-
         </div>
+    </section>-->
+    <section class="container">
+        <h1 style="text-align:center">Gallerie</h1>
+
+        <div class="row">
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/Dumplings.jpg" style="width:100%" onclick="openModal();currentSlide(1)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/bar.jpg" style="width:100%" onclick="openModal();currentSlide(2)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/buddha.jpg" style="width:100%" onclick="openModal();currentSlide(3)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/chang.jpg" style="width:100%" onclick="openModal();currentSlide(4)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/drinks.jpg" style="width:100%" onclick="openModal();currentSlide(5)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/green-curry.jpg" style="width:100%" onclick="openModal();currentSlide(6)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/happy.jpg" style="width:100%" onclick="openModal();currentSlide(7)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/logo1.png" style="width:100%" onclick="openModal();currentSlide(8)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/menu.jpg" style="width:100%"" onclick=" openModal();currentSlide(9)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/padmama.jpg" style="width:100%" onclick="openModal();currentSlide(10)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/sall1.jpg" style="width:100%" onclick="openModal();currentSlide(11)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class=" col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="./images/Carré/singh.jpg" style="width:100%" onclick="openModal();currentSlide(12)"
+                    class="hover-shadow cursor">
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 12</div>
+                    <img src="./images/chickendumplings.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 12</div>
+                    <img src="./images/bar.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 12</div>
+                    <img src="./images/buddha.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 12</div>
+                    <img src="./images/chang.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 12</div>
+                    <img src="./images/drinks.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 12</div>
+                    <img src="./images/greencurry.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 12</div>
+                    <img src="./images/salle.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 12</div>
+                    <img src="./images/Logonoframe.png" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">9 / 12</div>
+                    <img src="./images/menudark.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 12</div>
+                    <img src="./images/padmama.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">11 / 12</div>
+                    <img src="./images/photo1.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">12 / 12</div>
+                    <img src="./images/singh.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+
 
     </section>
 
+
+
+
+    <footer class="container fluid">
+        <h3>Rejoignez nous sur les réseaux sociaux!</h3>
+        <div class="sociallink">
+            <a href="https://www.facebook.com/thaichiangmaibrussels/">
+                <i class="fab fa-facebook-square text-dark fa-3x "></i>
+            </a>
+            <i class="fab fa-instagram text-dark fa-3x "></i>
+            <i class="fab fa-twitter-square text-dark fa-3x "></i>
+            <a
+                href="https://fr.tripadvisor.be/Restaurant_Review-g188644-d13122624-Reviews-Thai_Chiangmai-Brussels.html">
+                <i class="fab fa-tripadvisor text-dark fa-3x"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </body>
 
 </html>
