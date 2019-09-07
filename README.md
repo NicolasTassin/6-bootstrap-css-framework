@@ -20,41 +20,21 @@ Ces instructions vous permettront d'obtenir une copie du projet en cours d'exéc
 * **Restaurants**: Maps iframe.
 * **Contact**: Contact form.
 
-
-### Installation
-
-**Comment on l'installe ?** Une série d'exemples étape par étape qui vous expliquent comment faire fonctionner un environnement de développement.
-
-Dites quelle sera l'étape à franchir
-
-```
-Donner l'exemple
-```
-
-Répéter l'opération 
-
-```
-jusqu'à la fin
-```
-
 ## Construit avec
 
-* Avez-vous utilisez un framework ?
-* Avez-vous utilisé une bibliothèque ?
-* Ect ..
+* Html5/Css3
+* Bootstrap
+* Flexbox
 
 ## Autheurs
 
-* **Nom Prénom** - *Travail initial* - [nom de votre profil github](https://github.com/votreProfil)
+* **Nicolas Tassin** - *Travail initial* - https://github.com/NicolasTassin
 
-    * **Lien LinkedIn** : [nom du profil LinkedIn](https://www.linkedin.com/votreProfil)
-    * **Lien vers votre site perso(si vous en avez un** : [nomDeMonSite](https://votreSite)
-
-Voir aussi la liste des [contributors](https://github.com/your/VotreProjet/contributors) qui ont participé à ce projet.
-
+    * **Lien LinkedIn** : https://www.linkedin.com/in/nicolas-tassin/
+    
 
 ## Remerciements
 
-* Chapeau à tous ceux dont le code a été utilisé
-* Inspiration
-* etc
+* A toute la classe 
+* Aux coachs :D
+* :D :D
