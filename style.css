@@ -179,8 +179,8 @@ h3{
         padding-top: 100px;
         left: 0;
         top: 0;
-        width: 20%;
-        height: 20%;
+        /*width: auto;
+        height: auto;*/
         overflow: auto;
         background-color: #484848;
       }
