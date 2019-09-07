@@ -11,13 +11,15 @@ Creation d'un site web pour un restaurant. utilisation de boostrap et flexbox.
 
 Ces instructions vous permettront d'obtenir une copie du projet en cours d'exécution sur votre machine locale à des fins de développement et de test. Reportez-vous à la section Déploiement pour obtenir des notes sur la façon de déployer le projet sur un système actif.
 
-### Conditions préalables
+### Conditions de l'exercice
 
-Ce dont vous avez besoin pour installer le logiciel et comment les installer
+5 Pages : Accueil - Menu - Gallerie - Restaurants - Contact
+**Accueil** :Carousel et panels.
+**Menu**: List group avec collapse.
+**Gallerie**: Lightbox Bootstrap/JS.
+**Restaurants**: Maps iframe.
+**Contact**: Contact form.
 
-```
-Donner les exemples
-```
 
 ### Installation
 
