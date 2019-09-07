@@ -14,11 +14,11 @@ Ces instructions vous permettront d'obtenir une copie du projet en cours d'exéc
 ### Conditions de l'exercice
 
 5 Pages : Accueil - Menu - Gallerie - Restaurants - Contact
-**Accueil** :Carousel et panels.
-**Menu**: List group avec collapse.
-**Gallerie**: Lightbox Bootstrap/JS.
-**Restaurants**: Maps iframe.
-**Contact**: Contact form.
+* **Accueil** :Carousel et panels.
+* **Menu**: List group avec collapse.
+* **Gallerie**: Lightbox Bootstrap/JS.
+* **Restaurants**: Maps iframe.
+* **Contact**: Contact form.
 
 
 ### Installation
