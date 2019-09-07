@@ -1,3 +1,6 @@
+body{
+    font-family: "Norican" , "sans-serif";
+}
 .banner{
     background-image: url("./images/photo1.jpg");
     background-repeat: no-repeat;
@@ -162,13 +165,13 @@ h3{
         clear: both;
       }
       
-      /* Create four equal columns that floats next to eachother */
+      
       .column {
         float: left;
         width: 25%;
       }
       
-      /* The Modal (background) */
+      
       .modal {
         display: none;
         position: fixed;
@@ -176,10 +179,10 @@ h3{
         padding-top: 100px;
         left: 0;
         top: 0;
-        width: 100%;
-        height: 100%;
+        width: 20%;
+        height: 20%;
         overflow: auto;
-        background-color: black;
+        background-color: #484848;
       }
       
       /* Modal Content */
@@ -190,6 +193,7 @@ h3{
         padding: 0;
         width: 90%;
         max-width: 1200px;
+        
       }
       
       /* The Close Button */
@@ -225,7 +229,7 @@ h3{
         margin-top: -50px;
         color: white;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 50px;
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
@@ -252,15 +256,7 @@ h3{
         position: absolute;
         top: 0;
       }
-      
-      /* Caption text */
-      .caption-container {
-        text-align: center;
-        background-color: black;
-        padding: 2px 16px;
-        color: white;
-      }
-      
+
       img.demo {
         opacity: 0.6;
       }
