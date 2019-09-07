@@ -22,7 +22,7 @@ Creation d'un site web pour un restaurant. utilisation de boostrap et flexbox.
 * Bootstrap
 * Flexbox
 
-## Autheurs
+## Autheur
 
 * **Nicolas Tassin** - *Travail initial* - https://github.com/NicolasTassin
 
