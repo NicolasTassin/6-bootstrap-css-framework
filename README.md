@@ -7,10 +7,6 @@ Creation d'un site web pour un restaurant. utilisation de boostrap et flexbox.
 
 <img src="./images/Miniature.jpg" style="width:30%;">
 
-## Prise en main
-
-Ces instructions vous permettront d'obtenir une copie du projet en cours d'exécution sur votre machine locale à des fins de développement et de test. Reportez-vous à la section Déploiement pour obtenir des notes sur la façon de déployer le projet sur un système actif.
-
 ### Conditions de l'exercice
 
 5 Pages : Accueil - Menu - Gallerie - Restaurants - Contact
@@ -37,4 +33,5 @@ Ces instructions vous permettront d'obtenir une copie du projet en cours d'exéc
 
 * A toute la classe 
 * Aux coachs^^
+* A ma maman ^^
 * :D :D
