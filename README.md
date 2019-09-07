@@ -5,9 +5,9 @@ Creation d'un site web pour un restaurant. utilisation de boostrap et flexbox.
 
 **A quoi ça ressemble ?** 
 
-** <img src="./images/Miniature.jpg" style="width:30%;">
+ <img src="./images/Miniature.jpg" style="width:30%;">
 
-### Conditions de l'exercice
+## Conditions de l'exercice
 
 5 Pages : Accueil - Menu - Gallerie - Restaurants - Contact
 * **Accueil** :Carousel et panels.
