@@ -36,5 +36,5 @@ Ces instructions vous permettront d'obtenir une copie du projet en cours d'exéc
 ## Remerciements
 
 * A toute la classe 
-* Aux coachs :D
+* Aux coachs^^
 * :D :D
