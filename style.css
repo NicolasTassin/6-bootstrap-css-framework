@@ -1,5 +1,5 @@
 body{
-    font-family: "Norican" , "sans-serif";
+    
 }
 .banner{
     background-image: url("./images/photo1.jpg");
@@ -71,18 +71,40 @@ h1{
     padding-bottom: 5%;
     border-bottom: 1px solid #484848;
     text-align: center;
-    /*margin:5%;*/
+    font-family: "Norican" , "sans-serif";
+    
+}
+h2{
+  font-family: "Norican" , "sans-serif";
+  /*padding-top: 5%;*/
 }
 h3{
+    font-family: "Norican" , "sans-serif";
     text-align: center;
+
 }
 .panel{
     display: flex;
     justify-content: space-around;
+    font-family: "Norican" , "sans-serif";
     
 }
+/*MENU*/
 .card{
-    width: 30%;
+  /*margin-top: 5%;*/
+}
+.btn-link {
+  font-weight: 400;
+  color: #484848;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+}
+.card-header > h2{
+  text-align: center;
+}
+.accordion{
+  margin-top: 5%;
 }
 
 /*.gallerie{
@@ -147,10 +169,12 @@ h3{
     width:100%;
     position:absolute;
     }
+
     footer{
         margin-top: 5%;
         padding-top: 5%;
         border-top: 1px solid #484848;
+        font-family: "Norican" , "sans-serif";
     }
 
 
