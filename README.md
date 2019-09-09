@@ -29,9 +29,3 @@ Creation d'un site web pour un restaurant. utilisation de boostrap et flexbox.
     * **Lien LinkedIn** : https://www.linkedin.com/in/nicolas-tassin/
     
 
-## Remerciements
-
-* A toute la classe 
-* Aux coachs^^
-* A ma maman ^^
-* :D :D
